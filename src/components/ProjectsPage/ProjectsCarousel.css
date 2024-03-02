@@ -1,0 +1,53 @@
+.projectsCarousel-container {
+    display: flex;
+    flex-direction: column;
+    margin: 50px 150px 50px 150px;
+    gap: 3rem;
+}
+
+.carousel-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row-reverse;
+    gap: 20px;
+}
+
+.img-container {
+    width: 50%;
+}
+
+.img-container img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.project-info-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    width: 50%;
+}
+
+.project-stack {
+    display: flex;
+    justify-content: space-between;
+    gap: 5px;
+}
+
+.preview-button {
+    display: flex;
+    gap: 5px;
+    background-color: rgb(31 41 55);
+    border-radius: 100px;
+    font-size: .75rem;
+    line-height: 1rem;
+    padding: 0.25rem 0.5rem;
+}
+
+.project-buttons {
+    display: flex;
+    gap: 5px;
+}
