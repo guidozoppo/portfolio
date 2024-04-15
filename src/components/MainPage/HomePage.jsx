@@ -9,7 +9,11 @@ export function HomePage() {
     return (
         <main className='HeaderMainPage-container'>
             <h1>HOLA, SOY GUIDO ZOPPO</h1>
-            <p>Soy un programador junior dispuesto a aceptar desafios y con muchas ganas de aprender y ayudar</p>
+            <div className='personal-description'>
+                <p>Soy un apasionado programador junior, graduado de la Tecnicatura Universitaria en Desarrollo de Aplicaciones Informaticas 
+                en la UNCPBA, Argentina. Mi fascinación por la tecnología y el desarrollo de software me impulsa 
+                constantemente a buscar nuevos desafíos y oportunidades de aprendizaje.</p>
+            </div>
             <a>PROJECTS</a>
             {/* <div>
                 <a href='../../../ZoppoGuidoCV.pdf' onClick={handleDownloadd}>Descargar CV</a>

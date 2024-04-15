@@ -18,7 +18,7 @@ export function Header () {
       <div className='header-container'>
         <div className='header-content'>
           <div className='name-container'>
-            <img src="https://media.licdn.com/dms/image/C4E03AQFOs9sKqr2nOQ/profile-displayphoto-shrink_800_800/0/1645125938026?e=1714003200&v=beta&t=i4UALtPavADlM2fFCdouVMZY6wCxw1kjITeHh3g73p0" alt="" />
+            <img src="/images/photo-profile.jpg" alt="Profile Image" />
             <h1>Guido Zoppo</h1>
           </div>
           <div className={`menu-burger ${showMenu ? 'active' : ''}`} onClick={toggleMenu}>
@@ -27,7 +27,7 @@ export function Header () {
         </div>
         <div className={`section-items ${showMenu ? 'hidden' : ''} ${showDropdownMenu ? 'dropdown-menu' : ''}`}>
             <Link to='/'>Home</Link>
-            <Link to='/'>Sobre Mi</Link>
+            <Link to='/'>About</Link>
             <Link to='/projects'>Proyectos</Link>
             {/* <a href=''>Experiencia</a> */}
         </div>

@@ -5,8 +5,8 @@ import { Skills } from "./Skills"
 export function About () {
   return (
     <section>
-      <h2>SOBRE MI</h2>
-      <p>Aca vas a encontrar informacion sobre mi, como estudios, experiencia y skills</p>
+      <h2>ABOUT ME</h2>
+      <p>En esta sección compartiré detalles sobre mi formación, experiencia y habilidades.</p>
       <div className='about-details'>
         <AboutMeDescription/>
         <Skills/>
