@@ -2,9 +2,9 @@ import './HomePage.css'
 
 export function HomePage() {
 
-   /*  const handleDownloadd = (e) => {
+    const handleDownloadd = (e) => {
         e.target.download = 'ZoppoGuidoCV.pdf'  
-    } */
+    }
 
     return (
         <main id='homePage' className='HeaderMainPage-container'>
@@ -14,10 +14,10 @@ export function HomePage() {
                 en la UNCPBA, Argentina. Mi fascinación por la tecnología y el desarrollo de software me impulsa 
                 constantemente a buscar nuevos desafíos y oportunidades de aprendizaje.</p>
             </div>
-            <a>PROJECTS</a>
-            {/* <div>
+            <a href='#projects'>PROJECTS</a>
+            <div>
                 <a href='../../../ZoppoGuidoCV.pdf' onClick={handleDownloadd}>Descargar CV</a>
-            </div> */}
+            </div>
         </main>
     )
 }

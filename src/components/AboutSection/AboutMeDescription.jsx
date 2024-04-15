@@ -1,6 +1,11 @@
 import './AboutMeDescription.css'
 
 export function AboutMeDescription () {
+
+  const handleDownloadd = (e) => {
+    e.target.download = 'ZoppoGuidoCV.pdf'  
+}
+
   return (
     <section className="about-description-section">
       <h3>Conoceme!</h3>
@@ -31,10 +36,12 @@ export function AboutMeDescription () {
           y trabajar en equipo para alcanzar objetivos comunes.
         </p>
         <p>
-        ¡Estoy entusiasmado por las oportunidades que el futuro tiene reservadas y 
-        emocionado por la posibilidad de colaborar en proyectos innovadores mientras 
-        continúo mi viaje en el apasionante mundo de la programación!
+        ¡Estoy entusiasmado por tenes nuevas oportunidades esperando 
+        la posibilidad de colaborar en proyectos innovadores mientras 
+        continúo aprendiendo en el mundo de la programación!
         </p>
+
+        <p className='download-cv'><a href='../../../ZoppoGuidoCV.pdf' onClick={handleDownloadd}>ACA TE DEJO MI CV PARA DESCARGAR</a></p>
       </div>
     </section>
   )
