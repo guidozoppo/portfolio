@@ -4,7 +4,7 @@ import { Skills } from "./Skills"
 
 export function About () {
   return (
-    <section>
+    <section id='About'>
       <h2>ABOUT ME</h2>
       <p>En esta sección compartiré detalles sobre mi formación, experiencia y habilidades.</p>
       <div className='about-details'>

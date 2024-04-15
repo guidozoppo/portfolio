@@ -1,5 +1,4 @@
 import { useState } from 'react';
-import { Link } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBars } from '@fortawesome/free-solid-svg-icons';
 import './Header.css'; // Estilos CSS para el encabezado
@@ -26,10 +25,9 @@ export function Header () {
           </div>
         </div>
         <div className={`section-items ${showMenu ? 'hidden' : ''} ${showDropdownMenu ? 'dropdown-menu' : ''}`}>
-            <Link to='/'>Home</Link>
-            <Link to='/'>About</Link>
-            <Link to='/projects'>Proyectos</Link>
-            {/* <a href=''>Experiencia</a> */}
+            <a href='#homePage'>Home</a>
+            <a href='#About'>About</a>
+            <a href='#projects'>Proyectos</a>
         </div>
       </div>
     </header>
