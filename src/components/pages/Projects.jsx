@@ -1,13 +1,10 @@
-import { Footer } from "../Footer"
-import { Header } from "../Header"
 import { ProjectsCarousel } from "../ProjectsPage/ProjectsCarousel"
 
 export function Projects (){
     return (
-        <>
-        <Header />
-        <ProjectsCarousel />
-        <Footer />
-        </>
+        <section>
+            <h2>PROYECTOS</h2>
+            <ProjectsCarousel />
+        </section>
     )
 }

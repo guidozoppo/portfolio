@@ -1,20 +1,21 @@
 .projectsCarousel-container {
     display: flex;
     flex-direction: column;
-    margin: 50px 150px 50px 150px;
     gap: 3rem;
+    background-color: #f2f2f2;
+    width: 90%;
 }
 
 .carousel-container {
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
-    flex-direction: row-reverse;
     gap: 20px;
 }
 
 .img-container {
-    width: 50%;
+    width: 80vh;
 }
 
 .img-container img {
@@ -28,7 +29,11 @@
     align-items: center;
     justify-content: center;
     gap: 10px;
-    width: 50%;
+    width: 70%;
+}
+
+.project-info-container h1 {
+    white-space: nowrap;
 }
 
 .project-stack {
@@ -39,15 +44,44 @@
 
 .preview-button {
     display: flex;
+    background: #7843E9;
+    color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 5px 15px 0 rgba(0,0,0,0.15);
+    transition: transform .3s;
+    cursor: pointer;
+    padding: 10px 20px;
     gap: 5px;
-    background-color: rgb(31 41 55);
-    border-radius: 100px;
-    font-size: .75rem;
+    letter-spacing: 1px;
+    font-weight: bold;
+    text-decoration: none;
     line-height: 1rem;
-    padding: 0.25rem 0.5rem;
 }
 
 .project-buttons {
     display: flex;
     gap: 5px;
+}
+
+@media (min-width: 900px) { 
+    .carousel-container {
+        flex-direction: row;
+    }
+
+    .img-container {
+        width: 60%;
+    }
+
+    .project-info-container {
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        justify-content: center;
+        gap: 10px;
+        width: 40%;
+    }
+
+    .project-info-container p {
+        text-align: start;
+    }
 }

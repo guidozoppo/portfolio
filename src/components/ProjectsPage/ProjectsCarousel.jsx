@@ -1,12 +1,13 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { projects } from "../../data/projects.json"
 import './ProjectsCarousel.css'
-import { faReact, faBootstrap, faGithub, faJs, faCss3Alt } from "@fortawesome/free-brands-svg-icons"
+/* import { faReact, faBootstrap, faGithub, faJs, faCss3Alt } from "@fortawesome/free-brands-svg-icons" */
+import { faGithub } from "@fortawesome/free-brands-svg-icons"
 import { faCode } from "@fortawesome/free-solid-svg-icons"
 
 export function ProjectsCarousel () {
 
-  function GetSymbol (symbolName) {
+  /* function GetSymbol (symbolName) {
     const symbol = symbolName.toLowerCase()
     if (symbol === "react") {
       return faReact
@@ -20,7 +21,7 @@ export function ProjectsCarousel () {
     else if (symbol === "css"){
       return faCss3Alt
     }
-  } 
+  }  */
 
     return (
         <main className="projectsCarousel-container">
@@ -36,10 +37,10 @@ export function ProjectsCarousel () {
                     </div>
                     <div className="project-info-container">
                       <h1>{project.title}</h1>
-                      <div className="project-stack">
-                        <a className="preview-button"><FontAwesomeIcon className='react-icon' icon={GetSymbol(project.stack[0])} />{project.stack[0]}</a>
+                      {/* <div className="project-stack">
+                        <a className="preview-button"><FontAwesomeIcon className='react-icon' icon={GetSymbol(project.stack[0])} /><span>{project.stack[0]}</span></a>
                         <a className="preview-button"><FontAwesomeIcon className='react-icon' icon={GetSymbol(project.stack[1])} />{project.stack[1]}</a>
-                      </div>
+                      </div> */}
                       <p>{project.description}</p>
                       <div className="project-buttons">
                         <a className="preview-button" target="_blank" href={project.preview}><FontAwesomeIcon icon={faCode} />Preview</a>

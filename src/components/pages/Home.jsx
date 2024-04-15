@@ -1,14 +1,16 @@
 import { Footer } from "../Footer";
 import { Header } from "../Header";
-import { ContentMainPage } from "../MainPage/ContentMainPage";
-import { HeaderMainPage } from "../MainPage/HeaderMainPage";
+import { HomePage } from "../MainPage/HomePage";
+import { About } from "../AboutSection/About"
+import { Projects } from "../pages/Projects"
 
 export function Home () {
   return (
     <>
       <Header />
-      <HeaderMainPage />
-      <ContentMainPage />
+      <HomePage />
+      <About />
+      <Projects />
       <Footer />
     </>
   )
