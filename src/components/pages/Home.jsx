@@ -3,6 +3,7 @@ import { Header } from "../Header";
 import { HomePage } from "../MainPage/HomePage";
 import { About } from "../AboutSection/About"
 import { Projects } from "../pages/Projects"
+import { Experience } from "../ExperiencePage/Experience.jsx";
 
 export function Home () {
   return (
@@ -10,6 +11,7 @@ export function Home () {
       <Header />
       <HomePage />
       <About />
+      <Experience />
       <Projects />
       <Footer />
     </>

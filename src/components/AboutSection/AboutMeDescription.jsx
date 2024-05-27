@@ -1,10 +1,16 @@
 import './AboutMeDescription.css'
+import ZoppoGuidoCV from '../../../ZoppoGuidoCV.pdf';
 
 export function AboutMeDescription () {
 
   const handleDownloadd = (e) => {
-    e.target.download = 'ZoppoGuidoCV.pdf'  
-}
+    //e.target.download = 'ZoppoGuidoCV.pdf'
+    e.preventDefault();
+    const link = document.createElement('a');
+    link.href = ZoppoGuidoCV
+    link.download = 'ZoppoGuidoCV.pdf';
+    link.click();
+  }
 
   return (
     <section className="about-description-section">

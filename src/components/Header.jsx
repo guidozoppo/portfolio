@@ -27,6 +27,7 @@ export function Header () {
         <div className={`section-items ${showMenu ? 'hidden' : ''} ${showDropdownMenu ? 'dropdown-menu' : ''}`}>
             <a href='#homePage'>Home</a>
             <a href='#About'>About</a>
+            <a href='#Experience'>Experience</a>
             <a href='#projects'>Proyectos</a>
         </div>
       </div>

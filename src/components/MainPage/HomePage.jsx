@@ -8,15 +8,17 @@ export function HomePage() {
 
     return (
         <main id='homePage' className='HeaderMainPage-container'>
-            <h1>HOLA, SOY GUIDO ZOPPO</h1>
-            <div className='personal-description'>
-                <p>Soy un apasionado programador junior, graduado de la Tecnicatura Universitaria en Desarrollo de Aplicaciones Informaticas 
-                en la UNCPBA, Argentina. Mi fascinación por la tecnología y el desarrollo de software me impulsa 
-                constantemente a buscar nuevos desafíos y oportunidades de aprendizaje.</p>
-            </div>
-            <a href='#projects'>PROJECTS</a>
-            <div>
-                <a href='../../../ZoppoGuidoCV.pdf' onClick={handleDownloadd}>Descargar CV</a>
+            <div className='main-page-container'>
+                <h1>HOLA, SOY GUIDO ZOPPO</h1>
+                <div className='personal-description'>
+                    <p>Soy un apasionado programador junior, graduado de la Tecnicatura Universitaria en Desarrollo de Aplicaciones Informaticas 
+                    en la UNCPBA, Argentina. Mi fascinación por la tecnología y el desarrollo de software me impulsa 
+                    constantemente a buscar nuevos desafíos y oportunidades de aprendizaje.</p>
+                </div>
+                <a href='#projects'>PROJECTS</a>
+                <div>
+                    <a href='../../../ZoppoGuidoCV.pdf' onClick={handleDownloadd}>Descargar CV</a>
+                </div>
             </div>
         </main>
     )

@@ -4,6 +4,8 @@ header {
     align-items: center;
     padding: 10px;
     color: #333; */position: fixed;
+    /* CAMBIOS DE ACA */
+    /* width: 100%; */
     width: 100%;
     z-index: 1000;
     background-color: #fff;
@@ -75,15 +77,17 @@ header {
 }
 
 @media (min-width: 600px) {
+    .header-content {
+        width: 60%;
+    }
+
     .section-items {
         display: flex;
+        justify-content: space-between;
+        width: 40%;
     }
     
     .menu-burger {
         display: none;
-    }
-
-    .section-items a {
-        width: 80px;
     }
 }
