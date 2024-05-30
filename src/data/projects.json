@@ -34,14 +34,6 @@
         },
         {
             "id": 5,
-            "urlImage": "/images/tic-tac-toe.jpg",
-            "title": "Tic-Tac-Toe",
-            "description": "Desarrollo del famoso juego Tateti. unir con el de midudev -  WITHOUT PREVIEW",
-            "preview": "",
-            "stack": ["React", "CSS"]
-        },
-        {
-            "id": 6,
             "urlImage": "/images/x-in-line.jpg",
             "title": "X en linea",
             "description": "Desarrollo del juego 'X en línea'. Permite optar por jugar 4, 6 o 7 en línea. Este proyecto fue realizado durante el curso de la Tecnicatura Universitaria.",
@@ -49,7 +41,7 @@
             "stack": ["Javascript", "CSS"]
         },
         {
-            "id": 7,
+            "id": 6,
             "urlImage": "/images/fly-bird.jpg",
             "title": "Fly Bird",
             "description": "Desarrollo de juego del Pajaro Volador que debe ir esquivando obstaculos y sumando puntos. Este proyecto fue realizado durante el curso de la Tecnicatura Universitaria.",
@@ -57,12 +49,20 @@
             "stack": ["Javascript", "CSS"]
         },
         {
-            "id": 8,
+            "id": 7,
             "urlImage": "/images/garolfa.jpg",
             "title": "Garolfa Red Social",
             "description": "Desarrollo de red social del mundo animal. Este proyecto fue realizado durante el curso de la Tecnicatura Universitaria.",
             "preview": "https://guidozoppo.github.io/TPInterfaces/tp5/entregable5/",
             "stack": ["Javascript", "CSS"]
+        },
+        {
+            "id": 8,
+            "urlImage": "/images/tic-tac-toe.jpg",
+            "title": "Tic-Tac-Toe",
+            "description": "En proceso...",
+            "preview": "",
+            "stack": ["React", "CSS"]
         }
 ]
 }
